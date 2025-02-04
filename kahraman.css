@@ -1,0 +1,224 @@
+body {
+    animation: color-change 2s infinite;
+    display: block;
+    margin: 8px;
+}
+
+
+@keyframes color-change {
+    0% {
+        background-color: red;
+    }
+    12.5% {
+        background-color: orange;
+    }
+    25% {
+        background-color: yellow;
+    }
+    37.5% {
+        background-color: green;
+    }
+    50% {
+        background-color: blue;
+    }
+    62.5% {
+        background-color: indigo;
+    }
+    75% {
+        background-color: violet;
+    }
+    87.5% {
+        background-color: white;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+
+.baslik{
+    font-size: 24px;  
+    font-weight: bold; 
+    color: #333; 
+    text-align: center;  
+    background-color: green; 
+    padding: 10px; 
+    margin: 20px auto; 
+    width: 50%; 
+    border-radius: 8px; 
+}
+
+
+img {
+    width: 300px;  
+    height: auto;
+    display: block;
+    margin: 20px auto; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.list {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px; 
+    font-weight: bold; 
+    color: black;
+  }
+  
+  
+  .list ul {
+    list-style-type: circle; 
+    padding-left: 20px; 
+    color: black; 
+    font-size: 16px;
+  }
+  
+  
+  .list ul li {
+    margin-bottom: 10px; 
+    line-height: 1.5; 
+  }
+  
+ 
+  .list ul ul {
+    list-style-type: square; 
+    padding-left: 30px; 
+  }
+  
+  
+  .list a {
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold;
+  }
+  
+
+  .list a:hover {
+    color: #0056b3; 
+  }
+  
+
+  .list p {
+    font-size: 14px; 
+    color: black; 
+    margin-top: 20px; 
+  }
+  
+  
+  .list ul li:hover {
+    color: #007bff; 
+    cursor: pointer; 
+  }
+
+audio {
+    margin-top: 20px;
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+h5 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    padding: 10px 20px;
+  }
+
+ 
+  ul {
+    margin-left: 40px;
+  }
+
+  ul li {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  ul li ul {
+    margin-left: 20px;
+  }
+
+ 
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  
+  form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 50%;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+
+  label {
+    font-size: 16px;
+    color: #333;
+  }
+
+  input[type="text"], input[type="checkbox"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  ul li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
